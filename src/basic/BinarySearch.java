@@ -10,8 +10,7 @@ public class BinarySearch {
     /**
      * This class should not be instantiated.
      */
-    private BinarySearch() {
-    }
+    private BinarySearch() {}
 
     public static int indexOf(int[] a, int key) {
         int lo = 0, hi = a.length - 1;
